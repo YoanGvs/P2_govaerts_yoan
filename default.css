@@ -9,7 +9,7 @@ body{
 /* HEADER */
 h2{
    font-size: 24px;
-    margin-bottom: 24px;           
+   margin-bottom: 24px;           
 }
 
 .profileImage{
@@ -43,7 +43,12 @@ aside{
 aside h3{
     text-transform: uppercase;
     font-weight: bold;
-    background-color: azure;
+    color: #ffc107;
+    margin-top: 9px;
+}
+
+#about{
+    text-align: center;
 }
 /* MAIN */ 
 main{
