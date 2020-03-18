@@ -2,7 +2,50 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+body{
+    
+}
+
+/* HEADER */
+h2{
+   font-size: 24px;
+    margin-bottom: 24px;           
+}
+
+.profileImage{
+    border:  solid grey;
+    margin: 12px 42PX;
+}
+
+.headerTitle{
+    text-transform: uppercase;
+    font-size: 33px;
+    margin-top: 10px;       
+}
+
+.colorName{
+    color: #ffc107;
+}
+
+.subStyle{
+    text-decoration: underline;
+    text-decoration-color:  #ffc107;   
+}
+
+img{
+    width: 205px;    
+}
+
 /* ASIDE */ 
-
-
+aside{
+    height : 100%;    
+}
+aside h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: azure;
+}
 /* MAIN */ 
+main{
+ 
+}

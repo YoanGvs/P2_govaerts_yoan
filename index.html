@@ -7,7 +7,7 @@
 
     <title>Cv en ligne</title>
     <meta name="description" content="CV en ligne de Yoan pour le projet 2 du parcour développeur web de Openclassrooms" />
-    
+
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
@@ -28,7 +28,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="default.css" />
 
@@ -37,26 +37,32 @@
 </head>
 
 <body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-4 bg-warning">
+                    <!-- Profil Picture -->
+                    <section id="profilPicture">
+                        <img src="images/profilPicture.jpeg" alt="profil picture" class="img-fluid rounded-circle profileImage">
+                    </section>
+                </div>
+                <div class="col-12 col-md-8">
+                   <!-- Header Title -->
+                    <section id="title">
+                        <h1 class="headerTitle"> <span class="colorName">yoan</span> govaerts</h1>
+                        <h2><span class="subStyle">Dével</span>oppeur web freelance</h2>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <div class="container-fluid">
-       
-       
-       
-        <div class="row">
+        <div class="row ">
             <div class="col-12 col-md-4 bg-warning">
 
                 <!-- Aside -->
                 <aside>
-
-                    <!-- Profil Picture -->
-                    <section id="profilPicture">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <img src="images/profilPicture.jpeg" alt="profil picture" class="img-fluid rounded-circle">
-                                </div>
-                            </div>
-                        </div>
-                    </section>
 
                     <!-- About me -->
                     <section id="about">
@@ -76,7 +82,7 @@
 
                     <!-- Contact -->
                     <section id="contact">
-                        <div class="container">
+                        <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-12">
                                     <h3 class="contactTitle">contact</h3>
@@ -104,81 +110,60 @@
                                 <!-- glyphicon -->
                             </div>
                         </div>
-
-
-
                     </section>
-
                 </aside>
             </div>
 
             <!-- Main -->
             <div class="col-12 col-md-8">
                 <main>
-                   
-                    <!-- Header -->
-                    <section id="title">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h1 class="headerTitle">yoan govaerts</h1>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h2><span>Dével</span>oppeur web freelance</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
                     <!-- Formation -->
                     <section id="formation">
-                        <div class="container">
+                        <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="sectionHeader">
                                         <h3><i class="fas fa-university" aria-hidden="true"></i> formation</h3>
                                     </div>
                                 </div>
-                                <div class="container">
+                                <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-md-4">
+                                        <div class="col-12 col-md-4">
                                             <div class="itemDate">
-                                                    <p><i class="far fa-dot-circle" aria-hidden="true"></i> 2019 - 2020 <br> à distance</p>
-                                                </div>
+                                                <p><i class="far fa-dot-circle" aria-hidden="true"></i> 2019 - 2020 <br> à distance</p>
+                                            </div>
                                         </div>
-                                        <div class="col-md-8">
+                                        <div class="col-12 col-md-8">
                                             <div class="itemDetails">
-                                                    <h4>OpenClassrooms</h4>
-                                                    <h5>Développeur Web</h5>
-                                                    <p>Formation de niveau 5 (Bac +2) reconnue par l'Etat qui m'a permis d'acquérir les connaissances nécessaires au métier de
-                                                        Développeur Web. J'ai appris les langages suivants : HTML, CSS, JavaScript. J'ai pu appréhendé également
-                                                        le framework back-end Express, la plateforme logicielle Node JS mais aussi les systèmes de gestion de bases
-                                                        de données (MongoDB, MySQL).
-                                                    </p>
-                                                </div>
+                                                <h4>OpenClassrooms</h4>
+                                                <h5>Développeur Web</h5>
+                                                <p>Formation de niveau 5 (Bac +2) reconnue par l'Etat qui m'a permis d'acquérir les connaissances nécessaires au métier de
+                                                    Développeur Web. J'ai appris les langages suivants : HTML, CSS, JavaScript. J'ai pu appréhendé également
+                                                    le framework back-end Express, la plateforme logicielle Node JS mais aussi les systèmes de gestion de bases
+                                                    de données (MongoDB, MySQL).
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-4">
+                                        <div class="col-12 col-md-4">
                                             <div class="itemDate">
-                                                    <p><i class="fas fa-circle" aria-hidden="true"></i> 2019 - 2020 <br> à distance</p>
-                                                </div>
+                                                <p><i class="fas fa-circle" aria-hidden="true"></i> 2019 - 2020 <br> à distance</p>
+                                            </div>
                                         </div>
-                                        <div class="col-md-8">
+                                        <div class="col-12 col-md-8">
                                             <div class="itemDetails">
-                                                    <h4>OpenClassrooms</h4>
-                                                    <h5>Développeur Web</h5>
-                                                    <p>Formation de niveau 5 (Bac +2) reconnue par l'Etat qui m'a permis d'acquérir les connaissances nécessaires au métier de
-                                                        Développeur Web. J'ai appris les langages suivants : HTML, CSS, JavaScript. J'ai pu appréhendé également
-                                                        le framework back-end Express, la plateforme logicielle Node JS mais aussi les systèmes de gestion de bases
-                                                        de données (MongoDB, MySQL).
-                                                    </p>
-                                                </div>
+                                                <h4>OpenClassrooms</h4>
+                                                <h5>Développeur Web</h5>
+                                                <p>Formation de niveau 5 (Bac +2) reconnue par l'Etat qui m'a permis d'acquérir les connaissances nécessaires au métier de
+                                                    Développeur Web. J'ai appris les langages suivants : HTML, CSS, JavaScript. J'ai pu appréhendé également
+                                                    le framework back-end Express, la plateforme logicielle Node JS mais aussi les systèmes de gestion de bases
+                                                    de données (MongoDB, MySQL).
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>                                
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -189,21 +174,21 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="sectionHeading">
-                                        <div class="container">
+                                        <div class="container-fluid">
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <h3><i class="fas fa-briefcase" aria-hidden="true"></i> Expérience professionnelle</h3>
                                                 </div>
                                             </div>
                                             <div class="row">
-                                                <div class="col-md-4">
+                                                <div class="col-12 col-md-4">
                                                     <div class="dateDetails">
                                                         <p><i class="far fa-dot-circle" aria-hidden="true"></i> Mars. 2018 - Poste actuel<br>
                                                             Paris
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-8">
+                                                <div class="col-12 col-md-8">
                                                     <div class="itemDetails">
                                                         <h4>DESIGN INC</h4>
                                                         <h5>Web Developper</h5>
@@ -212,12 +197,12 @@
                                                 </div>
                                             </div>
                                             <div class="row">
-                                                <div class="col-md-4">
-                                                   <div class="dateDetails"> 
-                                                       <p><i class="fas fa-circle" aria-hidden="true"></i> 2018 - Poste actuel<br>Paris</p>
-                                                   </div>                                                    
+                                                <div class="col-12 col-4 col-md-4">
+                                                    <div class="dateDetails">
+                                                        <p><i class="fas fa-circle" aria-hidden="true"></i> 2018 - Poste actuel<br>Paris</p>
+                                                    </div>
                                                 </div>
-                                                <div class="col-md-8">
+                                                <div class="col-12 col-md-8">
                                                     <div class="itemDetails">
                                                         <h4>DESIGN INC</h4>
                                                         <h5>Graphic Designer</h5>
@@ -226,12 +211,12 @@
                                                 </div>
                                             </div>
                                             <div class="row">
-                                                <div class="col-md-4">
-                                                   <div class="dateDetails">
-                                                       <p><i class="fas fa-circle" aria-hidden="true"></i> 2018 - Poste actuel<br>Paris</p>
-                                                   </div>                                                    
+                                                <div class="col-12 col-md-4">
+                                                    <div class="dateDetails">
+                                                        <p><i class="fas fa-circle" aria-hidden="true"></i> 2018 - Poste actuel<br>Paris</p>
+                                                    </div>
                                                 </div>
-                                                <div class="col-md-8">
+                                                <div class="col-12 col-md-8">
                                                     <div class="itemDetails">
                                                         <h4>DESIGN INC</h4>
                                                         <h5>Graphic Designer</h5>
@@ -248,7 +233,7 @@
 
                     <!-- Recommandations -->
                     <section id="recommandation">
-                        <div class="container">
+                        <div class="container-fluid">
                             <div class="col-md-12">
                                 <div class="sectionHeading">
                                     <div class="row">
