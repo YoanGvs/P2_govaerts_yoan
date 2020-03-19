@@ -2,14 +2,10 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
-body{
-    
-}
 
 /* HEADER */
 h2{
-   font-size: 24px;
-   margin-bottom: 24px;           
+         
 }
 
 .profileImage{
@@ -18,9 +14,7 @@ h2{
 }
 
 .headerTitle{
-    text-transform: uppercase;
-    font-size: 33px;
-    margin-top: 10px;       
+    text-transform: uppercase;     
 }
 
 .colorName{
@@ -37,9 +31,6 @@ img{
 }
 
 /* ASIDE */ 
-aside{
-    height : 100%;    
-}
 aside h3{
     text-transform: uppercase;
     font-weight: bold;
