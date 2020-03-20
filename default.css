@@ -3,14 +3,23 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.container-fluid{
+    border: 2px solid grey;
+}
+
+.divider{
+    border: 2px solid #ffc107;
+}
+
+
 /* HEADER */
-h2{
-         
+h3{
+   text-transform: uppercase;      
 }
 
 .profileImage{
-    border:  solid grey;
-    margin: 12px 42PX;
+    border: 3px solid grey;
+    margin: auto;
 }
 
 .headerTitle{
@@ -26,22 +35,19 @@ h2{
     text-decoration-color:  #ffc107;   
 }
 
-img{
-    width: 205px;    
-}
 
 /* ASIDE */ 
+aside{
+    margin-bottom: 0px;
+}
 aside h3{
-    text-transform: uppercase;
     font-weight: bold;
     color: #ffc107;
-    margin-top: 9px;
-}
-
-#about{
     text-align: center;
 }
+
+
 /* MAIN */ 
-main{
- 
+.glyphColor{
+    color: #ffc107;
 }
