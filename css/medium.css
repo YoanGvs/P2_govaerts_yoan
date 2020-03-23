@@ -1,15 +1,35 @@
 /*  Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     /* GENERAL */
+    
     /* HEADER */
     #title{
-        margin-top: 85px;
-        margin-left: 42px;
+        margin-top: 121px;
+        margin-left: 52px;
     }
+    
+    h1{
+        font-size: 44px;
+    }
+    
+    h2{
+        font-size: 20px;
+        color: grey;
+    }
+    
     .profileImage{
-        margin-top: 33px
+        margin-bottom: 44px;
+        margin-top: 66px
     }
     
     /*Aside*/
+    .contactContent{
+        margin-left: 47px;
+        margin-top: 36px;
+        margin-bottom: 52px
+    }
  
    
+
+        
+}
