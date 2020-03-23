@@ -1,6 +1,7 @@
 /* GENERAL */
 *{
     font-family: 'Roboto', sans-serif;
+    color: #4d4d4d;
 }
 
 .container-fluid{
@@ -11,12 +12,18 @@
     border: 2px solid #ffc107;
 }
 
+h4{
+    text-transform: uppercase;
+    font-size: 20px
+}
+
 
 /* HEADER */
 h3{
    text-transform: uppercase;
    font-size: 26px;
 }
+
 
 .profileImage{
     display: block;
@@ -27,7 +34,7 @@ h3{
 
 .headerTitle{
     text-transform: uppercase;
-    
+    color: black;
 }
 
 
@@ -62,18 +69,23 @@ aside h3{
     display: flex;
     text-align: center;
     padding: 10px 10px 10px;
+    
 }
 
 .glyphicon{
     font-size: 45px;
     border: 3px solid grey;
     border-radius: 50%;
-    padding: 15px
+    padding: 15px;
 }
 
 /* MAIN */ 
 .glyphColor{
     color: #ffc107;
+}
+
+main h3{
+    color: black;
 }
 
 main{
