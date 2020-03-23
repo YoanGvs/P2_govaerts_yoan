@@ -1,1 +1,15 @@
-/* GENERAL */
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /* GENERAL */
+    /* HEADER */
+    #title{
+        margin-top: 85px;
+        margin-left: 42px;
+    }
+    .profileImage{
+        margin-top: 33px
+    }
+    
+    /*Aside*/
+ 
+   
