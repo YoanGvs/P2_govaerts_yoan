@@ -14,14 +14,12 @@
 
 h4{
     text-transform: uppercase;
-    font-size: 20px
+    font-size: 20px;
 }
 
-/*
-.test{
-   flex-direction: column-reverse; 
-}
-*/
+
+
+
 
 /* HEADER */
 h3{
@@ -73,7 +71,6 @@ aside h3{
 .glyph{
     display: flex;
     text-align: center;
-    padding: 10px 10px 10px;
     
 }
 
@@ -81,17 +78,22 @@ aside h3{
     font-size: 45px;
     border: 3px solid grey;
     border-radius: 50%;
-    padding: 15px;
+    padding: 9px;
+
+}
+
+#hobby{
+    margin-top: 10px;
 }
 
 /* MAIN */ 
 
 .sectionTitle{
         margin-left: 15px;
-        font-size: 20px;
+        font-size: 15px;
         color: black;
         font-weight: bold;
-    }
+}
 
 
 

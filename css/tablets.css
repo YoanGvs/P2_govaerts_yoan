@@ -42,6 +42,7 @@
     .glyph{
         margin-top: 31px;
         margin-bottom: 40px;
+        margin-right: 10px;
     }
     
  
@@ -65,6 +66,6 @@
         margin-right: 18px;
     }
     .itemDate{
-        margin-left: -20px;
+        margin-left: 20px;
     }
 }
