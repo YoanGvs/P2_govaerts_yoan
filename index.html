@@ -8,6 +8,10 @@
     <title>Cv en ligne</title>
     <meta name="description" content="CV en ligne de Yoan pour le projet 2 du parcour développeur web de Openclassrooms" />
 
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/cc460cd7eb.js" crossorigin="anonymous"></script>
 
@@ -25,211 +29,217 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/medium.css" />
+
+
 
 </head>
 
 <body>
     <div class="container-fluid">
+        <!-- Header -->
+        <header class="row">
+            <div class="col-md-4 bg-warning profilImageBlock">
+                <!-- Profil Picture -->
+                <section id="profilPicture">
+                    <img src="images/profilPicture.jpeg" alt="profil picture" class="img-fluid rounded-circle profileImage">
+                </section>
+            </div>
+            <div class="col-md-8">
+                <!-- Header Title -->
+                <section id="title">
+                    <h1 class="headerTitle"> <span class="colorName">yoan</span> govaerts</h1>
+                    <h2><span class="subStyle">Dével</span>oppeur web freelance</h2>
+                </section>
+            </div>
+        </header>
+        <!-- Content -->
         <div class="row">
-            <div class="col-12 col-md-4 bg-warning">
-
+            <div class="col-md-4 bg-warning">
                 <!-- Aside -->
                 <aside>
-
-                    <!-- Profil Picture -->
-                    <section id="profilPicture">
-                        <div class="container">
+                    
+                    <!-- Contact -->
+                    <section id="contact" class="row">
+                        <div class="col-md-12">
                             <div class="row">
-                                <div class="col-md-12">
-                                    <img src="images/profilPicture.jpeg" alt="profil picture" class="img-fluid rounded-circle">
+                                <div class="col-md-12 bg-secondary">
+                                    <h3 class="contactTitle">contact</h3>
                                 </div>
                             </div>
-                        </div>
-                    </section>
+                            <div class="contactContent">
+                                <p>adresse<br>Paris, France</p>
+                                <p>Téléphone<br>06.00.00.00.00</p>
+                                <p>Email<br>yoangovaerts@gmail.com</p>
+                                <p>Site Web<br>yoangovaerts.com</p>
+                                <p>skype<br>@YoanGvs</p>
+                            </div>
 
+                        </div>
+
+                    </section>
+                    
                     <!-- About me -->
-                    <section id="about">
-                        <div class="container-fluid">
+                    <section id="about" class="row">
+                        <div class="col-md-12">
                             <div class="row">
-                                <div class="col-md-12">
+                                <div class="col-md-12 bg-secondary">
                                     <h3 class="aboutTitle">à propos de moi</h3>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Contact -->
-                    <section id="contact">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h3 class="contactTitle">contact</h3>
-                                    <p>adresse<br>Paris, France</p>
-                                    <p>Téléphone<br>06.00.00.00.00</p>
-                                    <p>Email<br>yoangovaerts@gmail.com</p>
-                                    <p>Site Web<br>yoangovaerts.com</p>
-                                    <p>skype<br>@YoanGvs</p>
-                                </div>
-                            </div>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                         </div>
                     </section>
 
                     <!-- Hobby -->
-                    <section id="hobby">
-                        <div class="container">
+                    <section id="hobby" class="row">
+                        <div class="col-md-12 ">
                             <div class="row">
-                                <div class="col-md-12">
+                                <div class="col-md-12 bg-secondary">
                                     <h3 class="hobbyTitle">loisir</h3>
                                 </div>
                             </div>
-                            <div class="row">
-                                <!-- glyphicon -->
-                                <!-- glyphicon -->
-                                <!-- glyphicon -->
+                            <div class="row glyph" >
+                                <div class="col-4 col-md-4">
+                                    <!-- glyphicon 1 -->
+                                    <i class="fas fa-gamepad glyphicon" ></i>
+                                </div>
+                                <div class="col-4 col-md-4 ">
+                                    <!-- glyphicon 2 -->
+                                    <i class="fas fa-futbol glyphicon"></i>
+                                </div>
+                                <div class="col-4 col-md-4">
+                                    <!-- glyphicon 3 -->
+                                    <i class="fas fa-basketball-ball glyphicon"></i>
+                                </div>
                             </div>
                         </div>
-
-
-
                     </section>
-
                 </aside>
             </div>
-
-            <!-- Main -->
-            <div class="col-12 col-md-8">
+            <div class="col-md-8">
+                <!-- Main -->
                 <main>
-                   
-                    <!-- Header -->
-                    <section id="title">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h1 class="headerTitle">yoan govaerts</h1>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h2><span>Dével</span>oppeur web freelance</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
                     <!-- Formation -->
-                    <section id="formation">
-                        <div class="container-fluid">
+                    <section id="formation" class="row">
+                        <div class="col-md-12">
                             <div class="row">
-                                <div class="col-md-12">
+                                <div class="col-md-12 ">
+                                    <!-- Section header -->
                                     <div class="sectionHeader">
-                                        <h3><i class="fas fa-university" aria-hidden="true"></i> formation</h3>
+                                        <h3><i class="fas fa-university glyphColor" aria-hidden="true"></i> <span class="sectionTitle">formation</span></h3>
+                                        <!-- Color Divider -->
+                                        <div class="divider"></div>
                                     </div>
                                 </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="itemDate">
-                                                    <p><i class="far fa-dot-circle" aria-hidden="true"></i> 2019 - 2020 <br> à distance</p>
-                                                </div>
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="itemDetails">
-                                                    <h4>OpenClassrooms</h4>
-                                                    <h5>Développeur Web</h5>
-                                                    <p>Formation de niveau 5 (Bac +2) reconnue par l'Etat qui m'a permis d'acquérir les connaissances nécessaires au métier de
-                                                        Développeur Web. J'ai appris les langages suivants : HTML, CSS, JavaScript. J'ai pu appréhendé également
-                                                        le framework back-end Express, la plateforme logicielle Node JS mais aussi les systèmes de gestion de bases
-                                                        de données (MongoDB, MySQL).
-                                                    </p>
-                                                </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="itemDate">
-                                                    <p><i class="fas fa-circle" aria-hidden="true"></i> 2019 - 2020 <br> à distance</p>
-                                                </div>
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="itemDetails">
-                                                    <h4>OpenClassrooms</h4>
-                                                    <h5>Développeur Web</h5>
-                                                    <p>Formation de niveau 5 (Bac +2) reconnue par l'Etat qui m'a permis d'acquérir les connaissances nécessaires au métier de
-                                                        Développeur Web. J'ai appris les langages suivants : HTML, CSS, JavaScript. J'ai pu appréhendé également
-                                                        le framework back-end Express, la plateforme logicielle Node JS mais aussi les systèmes de gestion de bases
-                                                        de données (MongoDB, MySQL).
-                                                    </p>
-                                                </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
                             </div>
+                            <div class="row">
+                                <div class="col-1 col-md-1"><i class="far fa-dot-circle glyphColor"></i></div>
+                                <div class="col-3 col-md-3">
+                                    <!-- Formation header -->
+                                    <div class="itemDate">
+                                        <p> 2019 - 2020 <br> à distance</p>
+                                    </div>
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    <div class="itemDetails">
+                                        <h4>OpenClassrooms</h4>
+                                        <h5>Développeur Web</h5>
+                                        <p>Formation de niveau 5 (Bac +2) reconnue par l'Etat qui m'a permis d'acquérir les connaissances nécessaires au métier de
+                                            Développeur Web. J'ai appris les langages suivants : HTML, CSS, JavaScript. J'ai pu appréhendé également
+                                            le framework back-end Express, la plateforme logicielle Node JS mais aussi les systèmes de gestion de bases
+                                            de données (MongoDB, MySQL).
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                               <div class="col-1 col-md-1">
+                                   <i class="fas fa-circle glyphColor"></i>
+                               </div>
+                                <div class="col-3 col-md-3">
+                                    <div class="itemDate">
+                                        <p> 2019 - 2020 <br> à distance</p>
+                                    </div>
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    <div class="itemDetails">
+                                        <h4>OpenClassrooms</h4>
+                                        <h5>Développeur Web</h5>
+                                        <p>Formation de niveau 5 (Bac +2) reconnue par l'Etat qui m'a permis d'acquérir les connaissances nécessaires au métier de
+                                            Développeur Web. J'ai appris les langages suivants : HTML, CSS, JavaScript. J'ai pu appréhendé également
+                                            le framework back-end Express, la plateforme logicielle Node JS mais aussi les systèmes de gestion de bases
+                                            de données (MongoDB, MySQL).
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </section>
 
                     <!-- Experience -->
-                    <section id="experience">
-                        <div class="container-fluid">
+                    <section id="experience" class="row">
+                        <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <div class="sectionHeading">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <h3><i class="fas fa-briefcase" aria-hidden="true"></i> Expérience professionnelle</h3>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div class="dateDetails">
-                                                        <p><i class="far fa-dot-circle" aria-hidden="true"></i> Mars. 2018 - Poste actuel<br>
-                                                            Paris
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-8">
-                                                    <div class="itemDetails">
-                                                        <h4>DESIGN INC</h4>
-                                                        <h5>Web Developper</h5>
-                                                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                   <div class="dateDetails"> 
-                                                       <p><i class="fas fa-circle" aria-hidden="true"></i> 2018 - Poste actuel<br>Paris</p>
-                                                   </div>                                                    
-                                                </div>
-                                                <div class="col-md-8">
-                                                    <div class="itemDetails">
-                                                        <h4>DESIGN INC</h4>
-                                                        <h5>Graphic Designer</h5>
-                                                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                   <div class="dateDetails">
-                                                       <p><i class="fas fa-circle" aria-hidden="true"></i> 2018 - Poste actuel<br>Paris</p>
-                                                   </div>                                                    
-                                                </div>
-                                                <div class="col-md-8">
-                                                    <div class="itemDetails">
-                                                        <h4>DESIGN INC</h4>
-                                                        <h5>Graphic Designer</h5>
-                                                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div class="sectionHeader">
+                                        <h3><i class="fas fa-briefcase glyphColor"></i><span class="sectionTitle">Expérience professionnelle</span> </h3>
+                                        <div class="divider"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                               <div class="col-1 col-md-1">
+                                   <i class="far fa-dot-circle glyphColor"></i>
+                               </div>
+                                <div class="col-3 col-md-3">
+                                    <div class="itemDate">
+                                        <p>  2018 - Poste actuel<br> Paris
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    <div class="itemDetails">
+                                        <h4>DESIGN INC</h4>
+                                        <h5>Web Developper</h5>
+                                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                               <div class="col-1 col-md-1">
+                                   <i class="fas fa-circle glyphColor"></i>
+                               </div>
+                                <div class="col-3 col-md-3">
+                                    <div class="itemDate">
+                                        <p> 2018 - Poste actuel<br>Paris</p>
+                                    </div>
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    <div class="itemDetails">
+                                        <h4>DESIGN INC</h4>
+                                        <h5>Graphic Designer</h5>
+                                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                               <div class="col-1 col-md-1">
+                                   <i class="fas fa-circle glyphColor"></i>
+                               </div>
+                                <div class="col-3 col-md-3">
+                                    <div class="itemDate">
+                                        <p> 2018 - Poste actuel<br>Paris</p>
+                                    </div>
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    <div class="itemDetails">
+                                        <h4>DESIGN INC</h4>
+                                        <h5>Graphic Designer</h5>
+                                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                                     </div>
                                 </div>
                             </div>
@@ -237,41 +247,38 @@
                     </section>
 
                     <!-- Recommandations -->
-                    <section id="recommandation">
-                        <div class="container">
-                            <div class="col-md-12">
-                                <div class="sectionHeading">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <h3><i class="fas fa-pencil-alt" aria-hidden="true"></i> Recommandations</h3>
-                                        </div>
+                    <section id="recommandation" class="row">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="sectionHeader">
+                                        <h3><i class="fas fa-pencil-alt glyphColor"></i><span class="sectionTitle">Recommandations</span> </h3>
+                                        <div class="divider"></div>
                                     </div>
-                                    <div class="recommandationArticle">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <article>
-                                                    <h6>Maxime kieman</h6>
-                                                    <p>Directeur, Mon agence</p>
-                                                    <p>Téléphone : </p>
-                                                    <p class="email">
-                                                        Email :
-                                                        <a href="mailto:name@email.com" title="Envoyer un mail">name@email.com</a>
-                                                    </p>
-                                                </article>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <article>
-                                                    <h6>Maxime kieman</h6>
-                                                    <p>Directeur, Mon agence</p>
-                                                    <p>Téléphone : </p>
-                                                    <p class="email">
-                                                        Email :
-                                                        <a href="mailto:name@email.com" title="Envoyer un mail">name@email.com</a>
-                                                    </p>
-                                                </article>
-                                            </div>
-                                        </div>
-                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 col-md-6">
+                                    <article>
+                                        <h6>Maxime kieman</h6>
+                                        <p>Directeur, Mon agence</p>
+                                        <p>Téléphone : </p>
+                                        <p class="email">
+                                            Email :
+                                            <a href="mailto:name@email.com" title="Envoyer un mail">name@email.com</a>
+                                        </p>
+                                    </article>
+                                </div>
+                                <div class="col-6 col-md-6">
+                                    <article>
+                                        <h6>Maxime kieman</h6>
+                                        <p>Directeur, Mon agence</p>
+                                        <p>Téléphone : </p>
+                                        <p class="email">
+                                            Email :
+                                            <a href="mailto:name@email.com" title="Envoyer un mail">name@email.com</a>
+                                        </p>
+                                    </article>
                                 </div>
                             </div>
                         </div>
@@ -280,4 +287,10 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
 </body></html>

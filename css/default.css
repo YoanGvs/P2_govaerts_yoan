@@ -1,0 +1,94 @@
+/* GENERAL */
+*{
+    font-family: 'Roboto', sans-serif;
+    color: #4d4d4d;
+}
+
+.container-fluid{
+    border: 2px solid grey;
+}
+
+.divider{
+    border: 2px solid #ffc107;
+}
+
+h4{
+    text-transform: uppercase;
+    font-size: 20px
+}
+
+
+/* HEADER */
+h3{
+   text-transform: uppercase;
+   font-size: 26px;
+}
+
+
+.profileImage{
+    display: block;
+    border: 3px solid grey;
+    margin: auto;
+    width: 216px;
+}
+
+.headerTitle{
+    text-transform: uppercase;
+    color: black;
+}
+
+
+.colorName{
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.subStyle{
+    text-decoration: underline;
+    text-decoration-color:  #ffc107;   
+}
+
+
+/* ASIDE */ 
+
+aside h3{
+    font-weight: bold;
+    color: #ffc107;
+    text-align: center;
+    padding-top: 10px;
+}
+#about p{
+    display: block;
+    padding: 18px;
+}
+.contactContent{
+    padding-top: 12px;
+}
+
+.glyph{
+    display: flex;
+    text-align: center;
+    padding: 10px 10px 10px;
+    
+}
+
+.glyphicon{
+    font-size: 45px;
+    border: 3px solid grey;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+/* MAIN */ 
+.glyphColor{
+    color: #ffc107;
+}
+
+main h3{
+    color: black;
+}
+
+main{
+    padding-top: 12px
+}
+
