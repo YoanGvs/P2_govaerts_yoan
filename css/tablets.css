@@ -1,5 +1,5 @@
 /*  Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 767.99px) { 
     /* GENERAL */
     
     /* HEADER */
@@ -42,7 +42,6 @@
     .glyph{
         margin-top: 31px;
         margin-bottom: 40px;
-        margin-right: 10px;
     }
     
  
