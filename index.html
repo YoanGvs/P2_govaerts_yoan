@@ -31,7 +31,10 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/default.css" />
-    <link rel="stylesheet" type="text/css" href="css/medium.css" />
+    <link rel="stylesheet" type="text/css" href="css/mobile.css" />
+    <link rel="stylesheet" type="text/css" href="css/tablets.css" />
+    <link rel="stylesheet" type="text/css" href="css/desktops.css" />
+
 
 
 
@@ -39,12 +42,13 @@
 
 <body>
     <div class="container-fluid">
+
         <!-- Header -->
         <header class="row">
-            <div class="col-md-4 bg-warning profilImageBlock">
+            <div class="col-md-4 bg-info profilImageBlock">
                 <!-- Profil Picture -->
                 <section id="profilPicture">
-                    <img src="images/profilPicture.jpeg" alt="profil picture" class="img-fluid rounded-circle profileImage">
+                    <img src="images/profilPicturePerso.jpeg" alt="profil picture" class="img-fluid rounded-circle profileImage">
                 </section>
             </div>
             <div class="col-md-8">
@@ -55,17 +59,19 @@
                 </section>
             </div>
         </header>
+
         <!-- Content -->
-        <div class="row">
-            <div class="col-md-4 bg-warning">
+        <div class="row test">
+            <div class="col-md-4 bg-info">
+
                 <!-- Aside -->
                 <aside>
-                    
+
                     <!-- Contact -->
                     <section id="contact" class="row">
                         <div class="col-md-12">
                             <div class="row">
-                                <div class="col-md-12 bg-secondary">
+                                <div class="col-md-12 bg-light">
                                     <h3 class="contactTitle">contact</h3>
                                 </div>
                             </div>
@@ -80,16 +86,18 @@
                         </div>
 
                     </section>
-                    
+
                     <!-- About me -->
                     <section id="about" class="row">
                         <div class="col-md-12">
                             <div class="row">
-                                <div class="col-md-12 bg-secondary">
+                                <div class="col-md-12 bg-light">
                                     <h3 class="aboutTitle">à propos de moi</h3>
                                 </div>
                             </div>
-                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                            <p>Je m'appelle Yoan Govaerts, j'ai 27 ans et je suis développeur web freelance. Mes différentes expériences
+                                professionnelles en tant que technicien SAV tout d'abord puis en tant que développeur web, m'ont permis de développer mes compétences. <br>
+                                Je suis une personne autonome, rigoureuse, dynamique, polyvalente et fiable.</p>
                         </div>
                     </section>
 
@@ -97,14 +105,14 @@
                     <section id="hobby" class="row">
                         <div class="col-md-12 ">
                             <div class="row">
-                                <div class="col-md-12 bg-secondary">
+                                <div class="col-md-12 bg-light">
                                     <h3 class="hobbyTitle">loisir</h3>
                                 </div>
                             </div>
-                            <div class="row glyph" >
+                            <div class="row glyph">
                                 <div class="col-4 col-md-4">
                                     <!-- glyphicon 1 -->
-                                    <i class="fas fa-gamepad glyphicon" ></i>
+                                    <i class="fas fa-gamepad glyphicon"></i>
                                 </div>
                                 <div class="col-4 col-md-4 ">
                                     <!-- glyphicon 2 -->
@@ -120,8 +128,10 @@
                 </aside>
             </div>
             <div class="col-md-8">
+
                 <!-- Main -->
                 <main>
+
                     <!-- Formation -->
                     <section id="formation" class="row">
                         <div class="col-md-12">
@@ -136,18 +146,18 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-1 col-md-1"><i class="far fa-dot-circle glyphColor"></i></div>
-                                <div class="col-3 col-md-3">
+                                <div class="col-4 col-md-4">
                                     <!-- Formation header -->
                                     <div class="itemDate">
-                                        <p> 2019 - 2020 <br> à distance</p>
+                                        <p> <i class="far fa-dot-circle glyphColor"></i> 2019 - 2020 <br> à distance</p>
                                     </div>
                                 </div>
                                 <div class="col-8 col-md-8">
                                     <div class="itemDetails">
                                         <h4>OpenClassrooms</h4>
                                         <h5>Développeur Web</h5>
-                                        <p>Formation de niveau 5 (Bac +2) reconnue par l'Etat qui m'a permis d'acquérir les connaissances nécessaires au métier de
+                                        <p>
+                                           Formation de niveau 5 (Bac +2) reconnue par l'Etat qui m'a permis d'acquérir les connaissances nécessaires au métier de
                                             Développeur Web. J'ai appris les langages suivants : HTML, CSS, JavaScript. J'ai pu appréhendé également
                                             le framework back-end Express, la plateforme logicielle Node JS mais aussi les systèmes de gestion de bases
                                             de données (MongoDB, MySQL).
@@ -156,27 +166,22 @@
                                 </div>
                             </div>
                             <div class="row">
-                               <div class="col-1 col-md-1">
-                                   <i class="fas fa-circle glyphColor"></i>
-                               </div>
-                                <div class="col-3 col-md-3">
+
+                                <div class="col-4 col-md-4">
                                     <div class="itemDate">
-                                        <p> 2019 - 2020 <br> à distance</p>
+                                        <p><i class="fas fa-circle glyphColor"></i> 2019 - 2020 <br> à distance</p>
                                     </div>
                                 </div>
                                 <div class="col-8 col-md-8">
                                     <div class="itemDetails">
-                                        <h4>OpenClassrooms</h4>
+                                        <h4>Udemy</h4>
                                         <h5>Développeur Web</h5>
-                                        <p>Formation de niveau 5 (Bac +2) reconnue par l'Etat qui m'a permis d'acquérir les connaissances nécessaires au métier de
-                                            Développeur Web. J'ai appris les langages suivants : HTML, CSS, JavaScript. J'ai pu appréhendé également
-                                            le framework back-end Express, la plateforme logicielle Node JS mais aussi les systèmes de gestion de bases
-                                            de données (MongoDB, MySQL).
+                                        <p>
+                                            Formation en ligne de Développeur Web. J'ai pu y découvrir et utiliser le Html, CSS, Javascript, jQuery, Bootstrap, PHP, MySQL et Wordpress pour réaliser 7 projet web.  
                                         </p>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </section>
 
@@ -192,12 +197,10 @@
                                 </div>
                             </div>
                             <div class="row">
-                               <div class="col-1 col-md-1">
-                                   <i class="far fa-dot-circle glyphColor"></i>
-                               </div>
-                                <div class="col-3 col-md-3">
+
+                                <div class="col-4 col-md-4">
                                     <div class="itemDate">
-                                        <p>  2018 - Poste actuel<br> Paris
+                                        <p><i class="far fa-dot-circle glyphColor"></i> 2018 - Poste actuel<br> Paris
                                         </p>
                                     </div>
                                 </div>
@@ -210,12 +213,9 @@
                                 </div>
                             </div>
                             <div class="row">
-                               <div class="col-1 col-md-1">
-                                   <i class="fas fa-circle glyphColor"></i>
-                               </div>
-                                <div class="col-3 col-md-3">
+                                <div class="col-4 col-md-4">
                                     <div class="itemDate">
-                                        <p> 2018 - Poste actuel<br>Paris</p>
+                                        <p><i class="fas fa-circle glyphColor"></i> 2018 - Poste actuel<br>Paris</p>
                                     </div>
                                 </div>
                                 <div class="col-8 col-md-8">
@@ -227,12 +227,9 @@
                                 </div>
                             </div>
                             <div class="row">
-                               <div class="col-1 col-md-1">
-                                   <i class="fas fa-circle glyphColor"></i>
-                               </div>
-                                <div class="col-3 col-md-3">
+                                <div class="col-4 col-md-4">
                                     <div class="itemDate">
-                                        <p> 2018 - Poste actuel<br>Paris</p>
+                                        <p><i class="fas fa-circle glyphColor"></i> 2018 - Poste actuel<br>Paris</p>
                                     </div>
                                 </div>
                                 <div class="col-8 col-md-8">
@@ -293,4 +290,6 @@
 
 
 
-</body></html>
+</body>
+
+</html>

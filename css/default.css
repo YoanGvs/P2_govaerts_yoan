@@ -8,14 +8,14 @@
     border: 2px solid grey;
 }
 
-.divider{
-    border: 2px solid #ffc107;
-}
 
 h4{
     text-transform: uppercase;
-    font-size: 20px
+    font-size: 20px;
 }
+
+
+
 
 
 /* HEADER */
@@ -39,21 +39,24 @@ h3{
 
 
 .colorName{
-    color: #ffc107;
+    color: #17a2b8;
     font-weight: bold;
 }
 
 .subStyle{
     text-decoration: underline;
-    text-decoration-color:  #ffc107;   
+    text-decoration-color:  #17a2b8;   
 }
 
 
 /* ASIDE */ 
+aside p{
+    color: white;
+}
 
 aside h3{
     font-weight: bold;
-    color: #ffc107;
+    color: #17a2b8;
     text-align: center;
     padding-top: 10px;
 }
@@ -68,20 +71,40 @@ aside h3{
 .glyph{
     display: flex;
     text-align: center;
-    padding: 10px 10px 10px;
     
 }
 
 .glyphicon{
-    font-size: 45px;
-    border: 3px solid grey;
+    font-size: 33px;
+    border: 3px solid white;
     border-radius: 50%;
-    padding: 15px;
+    padding: 12px;
+    margin-top: 15px;
+    color: white;
+
+}
+
+#hobby{
+    margin-top: 10px;
 }
 
 /* MAIN */ 
+
+.sectionTitle{
+        margin-left: 15px;
+        font-size: 21px;
+        color: black;
+        font-weight: bold;
+}
+
+.divider{
+    border: 2px solid #17a2b8;
+    margin-bottom: 15px;
+}
+
+
 .glyphColor{
-    color: #ffc107;
+    color: #17a2b8;
 }
 
 main h3{
@@ -89,6 +112,6 @@ main h3{
 }
 
 main{
-    padding-top: 12px
+    padding-top: 12px;
 }
 

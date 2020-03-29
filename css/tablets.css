@@ -1,5 +1,5 @@
 /*  Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 767.99px) { 
     /* GENERAL */
     
     /* HEADER */
@@ -46,22 +46,15 @@
     
  
    /* Main */
-    
-    .sectionTitle{
-        margin-left: 32px;
-        font-size: 30px;
-        color: black;
-        font-weight: bold;
-    }
-    
+        
     main{
         margin-left: 47px;
-        margin-top: -45px
+        margin-top: -45px;
     }
     
     .sectionHeader{
         margin-bottom: 47px;
-        margin-top: 40px
+        margin-top: 40px;
     }
 
     .sectionHeader .glyphColor{
@@ -72,6 +65,6 @@
         margin-right: 18px;
     }
     .itemDate{
-        margin-left: -20px;
+        margin-left: 20px;
     }
 }
