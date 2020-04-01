@@ -1,14 +1,15 @@
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+
     /*GENERAL*/
-    body{
+    body {
         max-width: 1188px;
         margin: auto;
     }
-    
+
     /*MAIN*/
-    
-    .sectionTitle{
+
+    .sectionTitle {
         font-size: 20px;
     }
 }
