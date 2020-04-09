@@ -99,6 +99,14 @@ aside h3 {
     font-weight: bold;
 }
 
+.itemDate .glyphColor{
+    margin-right: 12px;
+}
+
+.itemDate .where{
+    margin-left: 33px;
+}
+
 .divider {
     border: 2px solid #17a2b8;
     margin-bottom: 15px;
