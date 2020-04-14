@@ -7,18 +7,24 @@
 .container-fluid {
     border: 2px solid grey;
 }
-
+h2{
+    text-align: center;
+    margin-bottom: 33px;
+    font-size: 18px
+        
+}
 
 h4 {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 13px;
 }
 
 
-
-
-
-/* HEADER */
 h3 {
     text-transform: uppercase;
     font-size: 26px;
@@ -29,12 +35,12 @@ h3 {
     display: block;
     border: 3px solid grey;
     margin: auto;
-    width: 216px;
 }
 
 .headerTitle {
     text-transform: uppercase;
     color: black;
+    text-align: center;
 }
 
 
@@ -52,6 +58,7 @@ h3 {
 /* ASIDE */
 aside p {
     color: white;
+    margin: 13px;
 }
 
 aside h3 {
@@ -59,15 +66,11 @@ aside h3 {
     color: #17a2b8;
     text-align: center;
     padding-top: 10px;
-}
-
-#about p {
-    display: block;
-    padding: 18px;
+    font-size: 24px
 }
 
 .contactContent {
-    padding-top: 12px;
+    text-align: center;
 }
 
 .glyph {
@@ -88,23 +91,27 @@ aside h3 {
 
 #hobby {
     margin-top: 10px;
+    margin-bottom: 18px;
 }
+
+
 
 /* MAIN */
 
 .sectionTitle {
     margin-left: 15px;
-    font-size: 21px;
+    font-size: 16px;
     color: black;
     font-weight: bold;
 }
 
-.itemDate .glyphColor{
+.itemDate .glyphColor {
     margin-right: 12px;
 }
 
-.itemDate .where{
-    margin-left: 28px;
+.itemDate .where {
+    margin-left: 22px;
+    font-size:12px;
 }
 
 .divider {
@@ -123,4 +130,8 @@ main h3 {
 
 main {
     padding-top: 12px;
+}
+
+main p{
+    font-size: 11px;
 }

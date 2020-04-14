@@ -2,63 +2,76 @@
 @media (min-width: 767.99px) {
     /* GENERAL */
 
-    /* HEADER */
     #title {
-        margin-top: 121px;
-        margin-left: 52px;
+        text-align: center;
     }
 
     h1 {
-        font-size: 44px;
+        margin-top: 33px;
+        font-size: 63px;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 33px;
         color: 4d4d4d;
     }
+    
+    
+    h4{
+        font-weight: bold;
+        font-size: 24px;
+    }
+    
+    h5{
+        font-size: 22px
+    }
+    
+    
 
     .profileImage {
-        margin-bottom: 44px;
-        margin-top: 66px;
+        width: 300px;
+        margin-bottom: 30px;
+        margin-top: 30px;
     }
 
     /*ASIDE*/
+    
+    aside h3{
+        font-size: 39px;
+    }
+    
     .contactContent {
-        margin-left: 47px;
-        margin-top: 36px;
-        margin-bottom: 52px;
+        font-size: 24px;
     }
 
     #about p {
         display: block;
-        margin-top: 37px;
+        margin-top: 33px;
         margin-left: 30px;
         margin-right: 30px;
-        margin-bottom: 450px;
-        font-size: 18px;
+        margin-bottom: 33px;
+        font-size: 24px;
 
     }
 
     .glyph {
-        margin-top: 31px;
-        margin-bottom: 40px;
+        margin-top: 33px;
+        margin-bottom: 33px;
+    }
+    
+    .glyphicon{
+        font-size: 66px;
     }
 
 
     /* Main */
 
-    main {
-        margin-left: 47px;
-        margin-top: -45px;
-    }
-
-    .sectionHeader {
-        margin-bottom: 47px;
-        margin-top: 40px;
-    }
-
     .sectionHeader .glyphColor {
-        font-size: 31px;
+        font-size: 33px;
+    }
+    
+    .sectionTitle{
+        font-size: 30px;
     }
 
     .dateDetails .glyphColor {
@@ -67,5 +80,14 @@
 
     .itemDate {
         margin-left: 20px;
+    }
+    
+    main p{
+        font-size: 18px;
+    }
+    
+    .itemDate .where{
+        font-size: 21px;
+        margin-left: 28px;
     }
 }

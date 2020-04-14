@@ -4,12 +4,88 @@
     /*GENERAL*/
     body {
         max-width: 1188px;
+        max-height: 1662px;
         margin: auto;
     }
 
+    h2{
+        margin-left: 66px;
+        text-align: left;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 131px;
+    }
+    
+    h4{
+        font-size: 17px;
+    }
+    
+    h5{
+        font-size:12px
+    }
+    
+    
+    /*ASIDE*/
+    .profileImage{
+        width: 219px;
+        margin-top: 70px;
+        margin-bottom: 42px;
+            
+    }
+    
+    .contactContent{
+        text-align: left;
+        font-size: 12px;
+        margin-bottom: 50px;
+        
+    }
+    
+    aside h3{
+        font-size:20px;
+    }
+    
+    
+    #about p{
+        margin-top: 40px;
+        font-size: 12px;
+    }
+    
+    
+    #hobby{
+        
+        margin-top: 180px;
+    }
+    
+    .glyphicon{
+        font-size: 58px;
+    }
+    
+    
     /*MAIN*/
+    .itemDate{
+        font-weight: bold;
+    }
+    
+    main p{
+        font-size: 12px;
+    }
+    #title{
+        margin-top: 95px;
+    }
+    
+    .headerTitle{
+        font-size: 43px;
+        margin-left: 65px;
+        text-align: left;
+    }
 
     .sectionTitle {
         font-size: 20px;
     }
+    
+    .itemDate .where{
+        font-size: 12px;
+        margin-left: 23px;
+    }
+    
 }
